@@ -1,0 +1,111 @@
+#prin {
+    background-color: #72d7d3;
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#prin .cuerpo{
+    padding-top: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+#prin .cuerpo .sombrero{
+    position: absolute;
+    top: 60px;
+    left: 225px;
+    transition: .5s;
+}
+
+#prin .cuerpo:hover .sombrero{
+    transform: translateY(-10px)
+}
+
+#prin .cuerpo .zapato1{
+    position: absolute;
+    left: 190px;
+    bottom: -20px;
+    z-index: -2;
+}
+
+#prin .cuerpo .zapato2{
+    position: absolute;
+    left: 360px;
+    bottom: -20px;
+    z-index: -2;
+}
+
+#prin .cuerpo:hover .zapato1{
+    transform: rotate(-30deg);
+}
+#prin .cuerpo:hover .zapato2{
+    transform: rotate(30deg);
+}
+
+#prin .cuerpo .oreja1 {
+    position: absolute;
+    left: 170px;
+    top: 170px;
+    z-index: -2;
+}
+
+#prin .cuerpo .oreja2 {
+    position: absolute;
+    left: 420px;
+    top: 170px;
+    z-index: -2 ;
+}
+
+#prin .cuerpo:hover .oreja1{
+    transform: rotate(100deg)
+}
+
+#prin .cuerpo:hover .oreja2{
+    transform: rotate(-100deg)
+}
+
+
+#prin .cuerpo .ojo1 {
+    position: absolute;
+    left: 260px;
+    top: 200px;
+    transition: .5s;
+}
+
+#prin .cuerpo .ojo2  {
+    position: absolute;
+    left: 345px;
+    top: 200px;
+    transition: .5s;
+}
+
+#prin .cuerpo:hover .ojo1{
+    transform: scale(1.2)
+}
+
+#prin .cuerpo:hover .ojo2{
+    transform: scale(1.2)
+}
+
+#prin .cuerpo .bigote {
+    position: absolute;
+    left: 254px;
+    top: 388px;
+}
+
+#prin .cuerpo:hover .bigote{
+    transform: rotate(10deg);
+}
+
+#prin .cuerpo .naris {
+    position: absolute;
+    left: 279px;
+    top: 260px;
+}
+
+#prin .cuerpo:hover .naris{
+    transform: rotate(-10deg);
+}
